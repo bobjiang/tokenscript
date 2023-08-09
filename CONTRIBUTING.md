@@ -2,17 +2,17 @@
 
 ## Public Participation Invited
 
-TokenScript is part of the EEA Community Projects and welcomes participation by anyone. Substantive contributions and feedback are invited from all parties, following the common conventions for participation in GitHub public repository projects.
+TokenScript is part of the EEA Community Projects and welcomes participation by anyone. Substantive contributions and feedbacks are invited from all parties, following the common conventions for participation in GitHub public repository projects.
 
 Participation is expected to be consistent with our [OASIS Participants Code of Conduct](https://www.oasis-open.org/policies-guidelines/oasis-participants-code-of-conduct/), the licenses applicable for each repository, and the acceptance of our individual [Contributor License Agreement](https://www.oasis-open.org/open-projects/cla/oasis-open-projects-individual-contributor-license-agreement-i-cla/), generally at the time of first contribution. 
 
 ## How to Contribute
 
-When contributing to the repositories in this project, please first discuss significant changes you wish to make via issue, email, GitHub discussion, or via the [project's email list](https://lists.oasis-open-projects.org/g/eea-cp-tokenscript).
+When contributing to the repositories in this project, please first discuss significant changes you wish to make via [github issue](https://github.com/eea-oasis/tokenscript/issues), email, GitHub discussion, or via the [project's email list](https://lists.oasis-open-projects.org/g/eea-cp-tokenscript).
 
 ### Issues
 
-One of the best ways to communicate with the rest of the project contributors is by opening a GitHub issue!
+One of the best ways to communicate with the rest of the project contributors is by opening a [GitHub issue](https://github.com/eea-oasis/tokenscript/issues)!
 
 ### Discussions and announcements
 
@@ -20,11 +20,11 @@ Longer discussions can be taken up on the GitHub Discussions list or via the [To
 
 You can find the Discussions link next to the link for Pull Requests. 
 
-The general mailing list requires that you subscribe before you can send. General announcements are posted to the general mailing list and may be posted to other communications channels as well. 
+The [general mailing list](https://lists.oasis-open-projects.org/g/eea-cp-tokenscript) requires that you subscribe before you can send. General announcements are posted to the general mailing list and may be posted to other communications channels as well. 
 
 ### Chat [optional]
 
-The TokenScript community uses Discord for ad hoc discussion. If you wish to join the channel, use [this invite](url to the join link).
+The TokenScript community uses [Discord](https://discord.gg/bTw8Maz6ma) for ad hoc discussion. If you wish to join the channel, click [and join Discord](https://discord.gg/bTw8Maz6ma).
 
 ### About the CLA Bot
 
