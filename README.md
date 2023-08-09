@@ -1,9 +1,5 @@
 # Technical Specification of TokenScript Working Group
 
-**Note:** This template is provided to give you a good idea about the kind of information you should include in a README.md file as a best practice. You know your project inside-out. Write your readme file for someone who doesn't know anything about it. What do you want people to know about your project who are just coming across it for the first time? OASIS Staff are happy to collaborate with you as well. Further README inspiration can be found [here](https://www.makeareadme.com/) and [here](https://github.com/hackergrrl/art-of-readme#readme).
-
-You may copy and edit this template as you see fit for your project and your community.
-
 Table of contents
 -----------------
 
@@ -25,12 +21,13 @@ Table of contents
 * [Acknowledgments](#acknowledgements) (optional)
 
 # Project Logo
-If available, add project logo.
+If available, add project logo. (tbd)
 
 # Project Title
 
-One Paragraph of project description goes here. Include: Technical Specification of TokenScript Working Group is part of the EEA Community Projects.
+## TokenScript: Add Rich Functionality To Your Tokens
 
+**Bring context, security and cross-platform functionality (iOS, Android and Web) to your favourite tokens with a single file.**
 
 ## Badges
 
@@ -38,14 +35,26 @@ Using badges is optional, but they are a nice way to show some key facts and sta
 
 ## Introduction
 
-* State what problem(s) your project solves.
-* Note its development status.
-* List the most useful/innovative/noteworthy features.
-* Note and briefly describe any key concepts (technical,  philosophical, or both) important to the user’s understanding.
-* Link to any supplementary blog posts or project main pages.
-* Compare/contrast your project with other, similar projects so the user knows how it is different from those projects.
-* Highlight the technical concepts that your project demonstrates or supports. Keep it very brief.
-* If possible, include screenshots and demo videos.
+TokenScript makes Smart Token (Credit to [Virgil Griffith](https://twitter.com/virgilgr) for coming up with the term). These are like traditional ERC20 or ERC721 tokens, but with extendable structure & signed JavaScript to realise rich functions and full composability that DApps struggle to implement, and be traded with flexible, customisable trading rules.
+
+A TokenScript file is made of
+- JavaScript to make Token work in the user's wallet or across multiple apps; and
+- XML data to extract status and value of the token.
+
+In short, it's like a secure front-end for tokens.
+
+**Benefits**
+-   Run your tokens from users wallets as native, modular ‘Mini-DApps'
+-   Extend token structure and realise rich functions with a single file
+-   Portable across DApps
+-   Sync updates at any time
+-   Blockchain agnostic
+-   Secure Enclave
+-   DvP Security
+-   Context based programming: User-experience
+-   Attestation
+
+![tokenscript stack alphawallet dapps](/doc/img/readme/tokenscript-stack.jpg)
 
 ## Getting Started
 
