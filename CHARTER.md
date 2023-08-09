@@ -22,6 +22,7 @@ In a broader context, TokenScript transcends the limitations of specific blockch
 ## Goals
 
 The primary objectives of TokenScript standardization include:
+
 * Developing standards for the TokenScript File, including its validation and the assertion of its authenticity, as well as the level of trust that can be placed in it. This standard forms the foundation supporting the following goals.
 * Creating the runtime specification for TokenScript, outlining the specifications for browsers and future wallets to load, execute TokenScript, and communicate with the websites that utilize token functions.
 * Establishing a standard for a web service deployment framework that enables a web service to offer token APIs based on token capabilities. This process permits a web service to learn a token's functions, acquire the necessary data and logic to serve the token to a website from the server-end, and allows for seamless interaction with token functions through traditional APIs.
@@ -29,6 +30,7 @@ The primary objectives of TokenScript standardization include:
 * Establishing standards and methods for TokenScript protocols that ensure secure transactions. Users should have confidence in their expenditure and the benefits expected from the transaction. This includes standards for how transactions are created and prompted, aiming to absolve web2 websites from the obligation of securely creating transactions, and delegate that responsibility to the TokenScript engine, secured by the means described above.
 
 ## Project Scope
+
 * Identify and document the most important and relevant use cases and business requirements with TokenScript for token issuers.
 * Identify and define the business standard (like a set of business rules and/or interaction logics) for token issuers.
 * Define a technical standard for TokenScript as required that meet both ecosystem and enterprise requirements, with a particular focus on interoperability between token issuers.
@@ -45,6 +47,7 @@ To be updated
 To be updated.
 
 ## WG Budget
+
 NA
 
 ## Constraints, Assumptions, Risks, and Dependencies
