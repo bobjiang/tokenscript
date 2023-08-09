@@ -5,8 +5,8 @@ The Technical Steering Committee (TSC) is accountable to the Project Governance 
 The following people are the initial vote-eligible members of the TSC (term ends on until 2024-07-01):
 
 * Bob Jiang 
-* Sunil 
-* Weiwu f
+* Sunil Jose
+* Weiwu Zhang
 * Miccy Wallace
 * Frank Lou
 * Cipher Tang 
