@@ -5,35 +5,24 @@
 Table of contents
 -----------------
 
-* [Project Logo](#project-logo) (optional)
-* [Project Title](#project-title)
-* [Badges](#badges) (optional)
+* [Technical Specification of TokenScript Working Group](#technical-specification-of-tokenscript-working-group)
 * [Introduction](#introduction)
+* [Why TokenScript](#why-tokenscript)
+* [Use Cases](#use-cases)
 * [Getting Started](#installation)
 * [Installation](#installion)
-* [How to run tests](#how-to-run-tests)(optional)
 * [Deployment](#deployment)
 * [Built With](#built-with)
 * [Contributing](#contributing)
-* [Versioning](#versioning)
 * [Authors and Maintainers](#authors-and-maintainers)
 * [Support](#support)
-* [Join us on Slack](#join-us-on-slack) (optional)
+* [Join us on Discord](#join-us-on-discord)
 * [License](#license)
 * [Acknowledgments](#acknowledgements) (optional)
-
-# Project Logo
-If available, add project logo. (tbd)
-
-# Project Title
 
 ## TokenScript: Add Rich Functionality To Your Tokens
 
 **Bring context, security and cross-platform functionality (iOS, Android and Web) to your favourite tokens with a single file.**
-
-## Badges
-
-Using badges is optional, but they are a nice way to show some key facts and stats about your project at a glance. There are badges for all kinds of things relating to your repository, e.g. to show the license you're using, the programming language, the number of forks, or a CI badge to show build/test status. Be mindful not to use too many badges. You can use [Shields](http://shields.io/) to add some to your README. Many services also have instructions for adding a badge. Check out the README of the Open Cybersecurity Alliance project [Kestrel](https://github.com/opencybersecurityalliance/kestrel-lang) to see badges in action.
 
 ## Introduction
 
@@ -58,12 +47,33 @@ In short, it's like a secure front-end for tokens.
 
 ![tokenscript stack alphawallet dapps](/doc/img/readme/tokenscript-stack.jpg)
 
+## Why TokenScript
+
+Today, the way tokens are accessed, rendered and transacted are scattered across DApps and Smart Contracts. This limited the use of Tokens.
+
+Typically, all knowledge about rendering a token and constructing a transaction about the token is in a "host" web app. The "host" web app becomes a centre in the token's marketisation and integration, recreating data interoperability, security and availability barrier - precisely the same set of issues that prevented tokenisation before blockchain's invention.
+
+By taking the knowledge of tokens including smart contract interfaces out and put them into a portable TokenScript we allow tokens to be accessible and useful.
+
+The team at AlphaWallet is committed to bringing Web 3.0 via tokenization. Tokenised rights can be traded on the market and integrated across systems, forming a [Frictionless Market](https://github.com/AlphaWallet/TokenScript/blob/master/doc/design_paper.md#creating-a-frictionless-market) and allowing [Limitless Integration](https://github.com/AlphaWallet/TokenScript/blob/master/doc/design_paper.md#blockchain-integrates-the-web).
+
+## Use Cases
+
+Visit our example Repo [here](https://github.com/AlphaWallet/TokenScript-Examples), which is full of complete TokenScripts that run inside our wallet, AlphaWallet.
+
+**Working examples:**
+
+- [Bartercard Qoin](https://play.google.com/store/apps/details?id=com.qoin.wallet&hl=en)
+- [FIFA and UEFA’s blockchain tickets](https://apps.apple.com/au/app/shankai/id1492559481)
+- [Car Ownership portal](https://github.com/AlphaWallet/TokenScript-Examples/tree/master/examples/Karma)
+
+[**A really good starting point to generating your own TokenScript**](https://github.com/AlphaWallet/TokenScript-Examples/tree/master/tutorial#future-obtaining-sample-files-schema-202003)
+
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
 If applicable, list here what is need to install the software and how to install them. Also list any dependencies, if applicable.
-
 
 ### Installation
 
@@ -82,14 +92,6 @@ until finished
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
-
-## How to run tests
-
-Explain how to run the automated tests for this system
-
-```
-Give an example
-```
 
 ## Deployment
 
@@ -111,17 +113,18 @@ Add a brief explanation of what kind of contributions you are looking for and wh
 
 ## Authors and Maintainers
   
-List authors and maintainers here, e.g.:
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+List authors and maintainers here:
 
 And/or:
 "See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project."
 
 ## Support
-Where can people ask for help: this can be any combination of an issue tracker, Slack, a chat room, an email address, etc.
 
-## Join us on Slack
-If your project has a Slack, add it here, eg. "Click here and fill out the form to receive an invite to the [Project name] slack instance, to meet the community and learn more about how you can engage."[add link to Slack]
+Where can people ask for help: this can be any combination of an [issue tracker](https://github.com/eea-oasis/tokenscript/issues), [Discord](https://discord.gg/bTw8Maz6ma), [email list](https://lists.oasis-open-projects.org/g/eea-cp-tokenscript).
+
+## Join us on Discord
+
+Click here and join [TokenScript Discord](https://discord.gg/bTw8Maz6ma) , to meet the community and learn more about how you can engage."
 
 ## License
 
