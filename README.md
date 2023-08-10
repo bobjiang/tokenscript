@@ -1,5 +1,7 @@
 # Technical Specification of TokenScript Working Group
 
+[Migrating... README from original repo](https://github.com/TokenScript/TokenScript)
+
 Table of contents
 -----------------
 
@@ -104,7 +106,7 @@ for example:
 
 ## Contributing
 
-Add a brief explanation of what kind of contributions you are looking for and what your requirements are for accepting them. Add a link to [CONTRIBUTING.md](link to your contributing.md file) and a link to [CODE_OF_CONDUCT](link to your code_of_conduct.md file).
+Add a brief explanation of what kind of contributions you are looking for and what your requirements are for accepting them. Add a link to [CONTRIBUTING.md](./CONTRIBUTING.md) and a link to [CODE_OF_CONDUCT](https://www.oasis-open.org/policies-guidelines/oasis-participants-code-of-conduct/).
 
 
 ## Authors and Maintainers
