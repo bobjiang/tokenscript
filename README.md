@@ -2,6 +2,8 @@
 
 [Migrating... README from original repo](https://github.com/TokenScript/TokenScript)
 
+working in progress, contents are continously updating.
+
 Table of contents
 -----------------
 
