@@ -1,26 +1,21 @@
 # Technical Specification of TokenScript Working Group
 
-[Migrating... README from original repo](https://github.com/TokenScript/TokenScript)
-
-working in progress, contents are continously updating.
-
 Table of contents
 -----------------
 
-* [Technical Specification of TokenScript Working Group](#technical-specification-of-tokenscript-working-group)
+* [Working Group Home](#technical-specification-of-tokenscript-working-group)
 * [Introduction](#introduction)
 * [Why TokenScript](#why-tokenscript)
+* [What is in a TokenScript file](#what-is-in-a-tokenscript-file)
 * [Use Cases](#use-cases)
-* [Getting Started](#installation)
+* [Getting Started](#getting-started)
 * [Installation](#installion)
-* [Deployment](#deployment)
-* [Built With](#built-with)
-* [Contributing](#contributing)
-* [Authors and Maintainers](#authors-and-maintainers)
+* [How to Contribute](#contributing)
+* [Contributors](#contributors)
 * [Support](#support)
 * [Join us on Discord](#join-us-on-discord)
 * [License](#license)
-* [Acknowledgments](#acknowledgements) (optional)
+* [Acknowledgments](#acknowledgements)
 
 ## TokenScript: Add Rich Functionality To Your Tokens
 
@@ -59,6 +54,17 @@ By taking the knowledge of tokens including smart contract interfaces out and pu
 
 The team at AlphaWallet is committed to bringing Web 3.0 via tokenization. Tokenised rights can be traded on the market and integrated across systems, forming a [Frictionless Market](https://github.com/AlphaWallet/TokenScript/blob/master/doc/design_paper.md#creating-a-frictionless-market) and allowing [Limitless Integration](https://github.com/AlphaWallet/TokenScript/blob/master/doc/design_paper.md#blockchain-integrates-the-web).
 
+## What is in a TokenScript file
+
+TokenScript is an XML dialect. It describes:
+
+-   The functions provided by the token (through smart contract or not)
+-   The method to render it on the user's interface
+-   The ERCs token behaviour templates it uses
+-   The JavaScript needed to construct transactions and render the token.
+
+It also defines how attestations are used to decorate, or convert to, or validate a transaction.
+
 ## Use Cases
 
 Visit our example Repo [here](https://github.com/AlphaWallet/TokenScript-Examples), which is full of complete TokenScripts that run inside our wallet, AlphaWallet.
@@ -79,6 +85,8 @@ If applicable, list here what is need to install the software and how to install
 
 ### Installation
 
+to be updated.
+
 A step by step series of examples that tell you how to get a development env running
 
 Say what the step will be
@@ -95,30 +103,45 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Deployment
+### Project Structures
 
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-List any libraries, frameworks or other projects that your code might be using,
-for example:
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+This project holds:
+`doc` : documents about the language and the design
+`schema` : XML schema files which define the syntax for TokenScripts
 
 ## Contributing
 
 Add a brief explanation of what kind of contributions you are looking for and what your requirements are for accepting them. Add a link to [CONTRIBUTING.md](./CONTRIBUTING.md) and a link to [CODE_OF_CONDUCT](https://www.oasis-open.org/policies-guidelines/oasis-participants-code-of-conduct/).
 
+## Contributors
 
-## Authors and Maintainers
-  
-List authors and maintainers here:
+Thank you to all the contributors! You are awesome.
 
-And/or:
-"See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project."
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/colourful-land"><img src="https://avatars3.githubusercontent.com/u/548435?v=4" width="100px;" alt=""/><br /><sub><b>Weiwu Zhang</b></sub></a><br /><a href="https://github.com/AlphaWallet/TokenScript/commits?author=colourful-land" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/James-Sangalli"><img src="https://avatars0.githubusercontent.com/u/16630514?v=4" width="100px;" alt=""/><br/><sub><b>James Sangalli</b></sub></a><br/><a href="https://github.com/AlphaWallet/TokenScript/commits?author=James-Sangalli" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/theBergmann"><img src="https://avatars1.githubusercontent.com/u/25482130?s=400&v=4" width="100px;" alt=""/><br /><sub><b>theBergmann</b></sub></a><br /><a href="https://github.com/AlphaWallet/TokenScript/commits?author=theBergmann" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/hboon"><img src="https://avatars2.githubusercontent.com/u/56189?v=4" width="100px;" alt=""/><br /><sub><b>Hwee-Boon Yar</b></sub></a><br /><a href="#ideas-hboon" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/zhangzhongnan928"><img src="https://avatars2.githubusercontent.com/u/33795543?v=4" width="100px;" alt=""/><br /><sub><b>Victor Zhang</b></sub></a><br /><a href="#ideas-zhangzhongnan928" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/liuxiaohao"><img src="https://avatars0.githubusercontent.com/u/1217967?s=400&u=d09aff7ab31b53ffffb2af8bd8d41eda7e3b79fe&v=4" width="100px;" alt=""/><br /><sub><b>maxliu</b></sub></a><br /><a href="https://github.com/AlphaWallet/TokenScript/commits?author=liuxiaohao" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/JamesSmartCell"><img src="https://avatars2.githubusercontent.com/u/12689544?v=4" width="100px;" alt=""/><br /><sub><b>James Brown</b></sub></a><br /><a href="https://github.com/AlphaWallet/TokenScript/commits?author=JamesSmartCell" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/developerpeachy"><img src="https://avatars3.githubusercontent.com/u/13824586?s=400&u=329f22d53d8c50f3877f909a6a7f0321d1e215db&v=4" width="100px;" alt=""/><br /><sub><b>Rosalie</b></sub></a><br /><a href="https://github.com/AlphaWallet/TokenScript/commits?author=developerpeachy" title="Code">💻</a></td>
+    <td align="center"><a href="http://medium.com/@james.zaki"><img src="https://avatars3.githubusercontent.com/u/939603?v=4" width="100px;" alt=""/><br /><sub><b>James Zaki</b></sub></a><br /><a href="https://github.com/AlphaWallet/alpha-wallet-ios/commits?author=jzaki" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/farrahfazirah"><img src="https://avatars2.githubusercontent.com/u/20555752?s=460&u=74320573120d8411594a3ffa48e2c6a1a5be3257&v=4" width="100px;" alt=""/><br /><sub><b>Farrah Fazirah</b></sub></a><br /><a href="https://github.com/AlphaWallet/TokenScript/commits?author=farrahfazirah" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/lanlan3322"><img src="https://avatars0.githubusercontent.com/u/26592081?s=400&u=e70d78508c13db2b533ac081c3677b9aea85c8cf&v=4" width="100px;" alt=""/><br /><sub><b>Laurence</b></sub></a><br /><a href="https://github.com/AlphaWallet/TokenScript/commits?author=lanlan3322" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/hellolucas"><img src="https://avatars3.githubusercontent.com/u/17125002?v=4" width="100px;" alt=""/><br /><sub><b>Lucas Toledo</b></sub></a><br /><a href="https://github.com/AlphaWallet/TokenScript/commits?author=hellolucas" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## Support
 
@@ -126,7 +149,7 @@ Where can people ask for help: this can be any combination of an [issue tracker]
 
 ## Join us on Discord
 
-Click here and join [TokenScript Discord](https://discord.gg/bTw8Maz6ma) , to meet the community and learn more about how you can engage."
+Click here and join [TokenScript Discord](https://discord.gg/bTw8Maz6ma) , to meet the community and learn more about how you can engage.
 
 ## License
 
