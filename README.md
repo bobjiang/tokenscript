@@ -52,7 +52,7 @@ Typically, all knowledge about rendering a token and constructing a transaction 
 
 By taking the knowledge of tokens including smart contract interfaces out and put them into a portable TokenScript we allow tokens to be accessible and useful.
 
-The team at AlphaWallet is committed to bringing Web 3.0 via tokenization. Tokenised rights can be traded on the market and integrated across systems, forming a [Frictionless Market](https://github.com/AlphaWallet/TokenScript/blob/master/doc/design_paper.md#creating-a-frictionless-market) and allowing [Limitless Integration](https://github.com/AlphaWallet/TokenScript/blob/master/doc/design_paper.md#blockchain-integrates-the-web).
+The team at AlphaWallet is committed to bringing Web 3.0 via tokenization. Tokenised rights can be traded on the market and integrated across systems, forming a Frictionless Market and allowing Limitless Integration.
 
 ## What is in a TokenScript file
 
@@ -67,7 +67,7 @@ It also defines how attestations are used to decorate, or convert to, or validat
 
 ## Use Cases
 
-Visit our example Repo [here](https://github.com/AlphaWallet/TokenScript-Examples), which is full of complete TokenScripts that run inside our wallet, AlphaWallet.
+Visit our example Repo [here](https://github.com/TokenScript/TokenScript-Examples), which is full of complete TokenScripts that run inside our wallet, AlphaWallet.
 
 **Working examples:**
 
@@ -79,13 +79,11 @@ Visit our example Repo [here](https://github.com/AlphaWallet/TokenScript-Example
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
-
-If applicable, list here what is need to install the software and how to install them. Also list any dependencies, if applicable.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Installation
 
-to be updated.
+**to be updated.**
 
 A step by step series of examples that tell you how to get a development env running
 
@@ -106,8 +104,9 @@ End with an example of getting some data out of the system or using it for a lit
 ### Project Structures
 
 This project holds:
-`doc` : documents about the language and the design
-`schema` : XML schema files which define the syntax for TokenScripts
+
+- `doc` : documents about the language and the design
+- `schema` : XML schema files which define the syntax for TokenScripts
 
 ## Contributing
 
@@ -145,9 +144,12 @@ Thank you to all the contributors! You are awesome.
 
 ## Support
 
-Where can people ask for help: this can be any combination of an [issue tracker](https://github.com/eea-oasis/tokenscript/issues), [Discord](https://discord.gg/bTw8Maz6ma), [email list](https://lists.oasis-open-projects.org/g/eea-cp-tokenscript).
+Where can people ask for help: this can be any combination of an 
+- [issue tracker](https://github.com/eea-oasis/tokenscript/issues), 
+- [Discord](https://discord.gg/bTw8Maz6ma), 
+- [email list](https://lists.oasis-open-projects.org/g/eea-cp-tokenscript).
 
-## Join us on Discord
+### Join us on Discord
 
 Click here and join [TokenScript Discord](https://discord.gg/bTw8Maz6ma) , to meet the community and learn more about how you can engage.
 
@@ -158,5 +160,3 @@ This project is licensed under the Apache 2.0 license - see the [LICENSE.md](LIC
 ## Acknowledgments
 
 Add a Hat tip to anyone whose code was used or projects that inspire your work etc.
-
-
